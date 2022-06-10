@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933715151897",
+    "project_id": "retailmi-ca689",
+    "storage_bucket": "retailmi-ca689.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933715151897:android:89a0e20386904c90086e88",
+        "android_client_info": {
+          "package_name": "com.example.colgate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933715151897-4ns631gbit1sgb92cptu4qc6g9hjjqet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgVk-VMCVFdczZm3k2yOmNpM2mHf0KbTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933715151897-4ns631gbit1sgb92cptu4qc6g9hjjqet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

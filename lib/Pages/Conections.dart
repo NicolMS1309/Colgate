@@ -5,6 +5,8 @@ import 'package:barcode_scan2/model/android_options.dart';
 import 'package:barcode_scan2/model/scan_options.dart';
 import 'package:barcode_scan2/platform_wrapper.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:colgate/Pages/asistente.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
@@ -146,8 +148,20 @@ class _ComectionsState extends State<Comections> {
         eleccionllamada: true),
   ];
   Stack get body => Stack(
-        children: <Widget>[background, pictureCarrousel, camera],
+        children: <Widget>[background, pictureCarrousel, camera, buttonmicro],
       );
+
+  Widget get buttonmicro => Positioned(
+        bottom: 10.0,
+        left: 10.0,
+        child: FloatingActionButton.small(
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> AsistenteVirtual()));
+          },
+          backgroundColor: Color.fromARGB(255, 255, 11, 11),
+          child: const Icon(Icons.mic),
+        ),
+      );    
 
   Widget get pictureCarrousel => Positioned(
       right: 0,

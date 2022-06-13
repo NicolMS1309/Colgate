@@ -45,6 +45,8 @@ dependencies:
   flutter_bluetooth_serial: ^0.4.0
   agora_rtc_engine: ^5.0.1
   permission_handler: ^9.2.0
+  flutter_tts: ^3.4.0
+  speech_to_text: ^5.5.0
   
 
 
@@ -96,6 +98,12 @@ flutter:
      - assets/btnescaner.png
      - assets/btnbot.png
      - assets/btnimp.png
+     - assets/aliento_fresco.png
+     - assets/blanqueamiento_dental.png
+     - assets/colgate_luminous_white_carbon_activado.png
+     - assets/qr_colgate.png
+     - assets/recomendaciones.png
+     - assets/sensivilidad.png
      
      
 

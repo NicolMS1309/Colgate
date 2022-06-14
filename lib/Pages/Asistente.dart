@@ -320,7 +320,7 @@ class _AsistenteVirtualState extends State<AsistenteVirtual> {
       break;
 
       case 3:
-        frase = 'Para el aliento fresco te recomendamos Colgate Total Professional Aliento Saludable. ¿Te puedo ayudar en algo más?';
+        frase = 'Para el aliento fresco te recomendamos Crema Dental Colgate Triple Acción. ¿Te puedo ayudar en algo más?';
         contenedor = Column(
           children: [
             Center(
@@ -342,7 +342,7 @@ class _AsistenteVirtualState extends State<AsistenteVirtual> {
                 child: Column(
                   children: const [
                     Image(
-                      image: AssetImage('assets/colgate_luminous_white_carbon_activado.png')
+                      image: AssetImage('assets/triple-accion-menta.png')
                     ),
                     Text(
                       'Colgate Total Professional Aliento Saludable',
@@ -384,7 +384,7 @@ class _AsistenteVirtualState extends State<AsistenteVirtual> {
                 child: Column(
                   children: const [
                     Image(
-                      image: AssetImage('assets/colgate_luminous_white_carbon_activado.png')
+                      image: AssetImage('assets/crema-dental-colgate-sensitive-pro-alivio-encias.png')
                     ),
                     Text(
                       'Colgate Sensitive Pro-Alivio Inmediato Encías',
@@ -491,6 +491,7 @@ class _AsistenteVirtualState extends State<AsistenteVirtual> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Asistente Virtual'),
+        backgroundColor: Color.fromARGB(255, 255, 11, 11),
       ),
       body: contenedor,
     );

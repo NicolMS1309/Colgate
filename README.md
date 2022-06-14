@@ -1,4 +1,4 @@
-# retailmilimpio
+# retailmi
 
 A new Flutter project.
 
